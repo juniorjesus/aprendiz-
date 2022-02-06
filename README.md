@@ -31,3 +31,10 @@ Esta página tiene:
 ## Demo
 
 [React Firebase Hooks Crud](https://aprendiz.vercel.app/)
+
+## Autor ✒️
+
+ Hecho con ❤️ por **Junior Jesús López González**
+- [@juniorjesus](https://github.com/juniorjesus)
+
+
