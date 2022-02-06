@@ -10,7 +10,7 @@ function App() {
   return (
     <div>
       <nav className="navbar navbar-expand navbar-dark bg-dark">
-        <a href="https://res.cloudinary.com/djbaqvlnn/image/upload/v1641177954/2919592_xmjok8.png" className="navbar-brand">
+        <a href="/tutorials" className="navbar-brand">
           Jrjesus18
         </a>
         <div className="navbar-nav mr-auto">
