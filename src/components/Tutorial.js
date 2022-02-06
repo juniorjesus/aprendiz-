@@ -26,7 +26,7 @@ const Tutorial = (props) => {
     TutorialDataService.update(currentTutorial.key, { published: status })
       .then(() => {
         setCurrentTutorial({ ...currentTutorial, published: status });
-        setMessage("The status was updated successfully!");
+        setMessage("El estado se ha actualizado con Éxito!");
       })
       .catch((e) => {
         console.log(e);
@@ -41,7 +41,7 @@ const Tutorial = (props) => {
 
     TutorialDataService.update(currentTutorial.key, data)
       .then(() => {
-        setMessage("The tutorial was updated successfully!");
+        setMessage("El Tutorial se ha actualizado con Éxito!");
       })
       .catch((e) => {
         console.log(e);

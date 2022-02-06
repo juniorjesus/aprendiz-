@@ -40,7 +40,7 @@ const AddTutorial = () => {
     <div className="submit-form">
       {submitted ? (
         <div>
-          <h4>You submitted successfully!</h4>
+          <h4>Lo enviaste con Éxito!</h4>
           <button className="btn btn-success" onClick={newTutorial}>
             Add
           </button>
@@ -48,7 +48,7 @@ const AddTutorial = () => {
       ) : (
         <div>
           <div className="form-group">
-            <label htmlFor="title">Title</label>
+            <label htmlFor="title">Título</label>
             <input
               type="text"
               className="form-control"
@@ -61,7 +61,7 @@ const AddTutorial = () => {
           </div>
 
           <div className="form-group">
-            <label htmlFor="description">Description</label>
+            <label htmlFor="description">Descripción</label>
             <input
               type="text"
               className="form-control"
@@ -74,7 +74,7 @@ const AddTutorial = () => {
           </div>
 
           <button onClick={saveTutorial} className="btn btn-success">
-            Submit
+            Enviar
           </button>
         </div>
       )}
